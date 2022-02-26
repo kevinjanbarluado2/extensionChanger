@@ -9,8 +9,8 @@ const myOptions = {
 };
 const argv = require('yargs').version('1.1.0').options(myOptions).demandOption(['from', 'to']).help().parse();
 
-const location = argv.path || __dirname;
-console.log(location)
+const location = argv.path || process.cwd();
+
 const readFolder = fs.readdirSync(location);
 const fromExt = argv.from;
 const toExt = argv.to;
