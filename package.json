@@ -2,9 +2,9 @@
   "name": "extensionchanger",
   "version": "1.0.0",
   "description": "Able to Change Extension",
-  "main": "index.js",
+  "main": "changeext.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node changeext.js"
   },
   "keywords": [],
   "author": "Kevin Jan Barluado",
